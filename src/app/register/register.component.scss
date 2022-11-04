@@ -1,0 +1,17 @@
+
+::placeholder{
+  font-size: 1.5rem;
+}
+
+.message-error{
+  color: black;
+  opacity: 0;
+  transition: all linear .5s;
+
+  &.invalid{
+  color: red;
+  opacity: 1;
+}
+}
+
+

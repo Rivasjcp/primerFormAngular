@@ -1,0 +1,61 @@
+
+.navStyle{
+  width: 100%;
+  height: 20rem;
+  background-color: black;
+
+
+
+}
+
+.navGrid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+
+  .gridTitulo{
+    display:flex;
+    justify-content: center;
+    grid-column: 1/3;
+    grid-row: 1;
+
+    .titulo{
+      color: white;
+      font-size: 3rem;
+      font-family: 'Noto Sans', sans-serif;
+      grid-column: 1/3;
+      grid-row: 1;
+      align-self: center;
+    }
+  }
+
+  .gridBotones{
+    grid-column: 1/3;
+    grid-row: 2/3;
+
+    .flexbotones{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .botones{
+        background-color: rgb(226, 99, 25);
+        width: 10rem;
+        height: 3rem;
+        border-radius: 5px;
+        margin: 10px;
+        font-size: 1.5rem;
+        font-family: 'Noto Sans', sans-serif;
+        cursor:pointer;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+

@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'primer-form';
+
+  constructor(){}
+
+  ngOnInit(): void {
+  }
 }
